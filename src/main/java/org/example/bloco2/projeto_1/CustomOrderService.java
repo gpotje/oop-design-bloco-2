@@ -1,8 +1,10 @@
 package org.example.bloco2.projeto_1;
 
 public class CustomOrderService extends OrderService{
-    public CustomOrderService(Discount discount, Payment payment, Shipping shipping) {
-        super(discount, payment, shipping);
+
+
+    public CustomOrderService(Discount discount, Payment payment, Shipping shipping, Tax tax) {
+        super(discount, payment, shipping, tax);
     }
 
     @Override
